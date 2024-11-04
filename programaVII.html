@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora IMC</title>
+    <title>Tabuada II</title>
 </head>
 <body>
     <script>
@@ -17,15 +17,11 @@
             pulaLinha()
         }
 
-        function calcularIMC(peso, altura){
-          return imc = peso/(altura*altura)
-          
+        let tabuada =  prompt(' Qual a tabuada você deseja?')
+
+        for(let i = 0; i <= 10; i++){
+            mostra(`${tabuada} x ${i} =  ${i * tabuada}`)
         }
-
-        let imcNath = calcularIMC(49, 1.53)
-
-        mostra('O IMC do Luiz é: ' + imcNath)
-
     </script>
 </body>
 </html>
