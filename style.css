@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Wet+Paint&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-titulo: "Rubik Wet Paint", system-ui;
+    --fonte-texto: "Poppins", sans-serif;
+    --azul-escuro: #03045eff;
+    --azul: #0077b6ff;
+    --azul-claro: #00b4d8ff;
+    --ciano: #90e0efff;
+    --branco: #caf0f8ff;
+
+}
+
+body {
+    background-color: var(--azul-claro);
+    font-family: var(--fonte-texto);
+    color: var(--branco);
+}
+
+header {
+    background-color: var(--azul);
+    padding: 2em;
+    color: var(--branco);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--branco);
+}
